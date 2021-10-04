@@ -12,11 +12,11 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={Home}></Route>
+        {/* <Route exact path="/" component={Home}></Route>
         <Route exact path="/login" component={LoginPage}></Route>
-        <Route exact path="/signup" component={SignUpPage}></Route>
+        <Route exact path="/signup" component={SignUpPage}></Route> */}
         <UserView exact path="/calendar" component={MyPlanner}></UserView>
-        <Route exact path="/singleday" component={WorkoutViews}></Route>
+        <Route exact path="/" component={WorkoutViews}></Route>
       </Switch>
     </BrowserRouter>
   );
