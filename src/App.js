@@ -13,10 +13,10 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
-        {/* <Route exact path="/login" component={LoginPage}></Route>
+        <Route exact path="/login" component={LoginPage}></Route>
         <Route exact path="/signup" component={SignUpPage}></Route>
         <UserView exact path="/calendar" component={MyPlanner}></UserView>
-        <Route exact path="/singleday" component={WorkoutViews}></Route> */}
+        <Route exact path="/singleday" component={WorkoutViews}></Route>
       </Switch>
     </BrowserRouter>
   );
