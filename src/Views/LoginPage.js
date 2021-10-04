@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import { useState, useContext, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
-import { toast } from "react-toastify";
 
 const LoginPage = ({ history }) => {
   const apiUrl = process.env.REACT_APP_API_URL;
@@ -108,10 +107,10 @@ const LoginPage = ({ history }) => {
             </div>
 
             <div className="text-sm">
-              <Link to="#"
+              <Link to="/signup"
                 className="font-medium text-yellow-600 hover:text-yellow-500"
               >
-                Forgot your password?
+                Doesn't have an account?
               </Link>
             </div>
           </div>
@@ -132,31 +131,4 @@ const LoginPage = ({ history }) => {
 
 export default LoginPage;
 
-// eslint-disable-next-line no-lone-blocks
-{
-  /* <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8">
-        <div>
-          <form className="mt-8 space-y-6" onSubmit={loginHandler}>
-            <div className="rounded-md shadow-sm -space-y-px">
-              <label>email</label>
-              <input
-                
-              />
-              <label>password</label>
-              <input
-               
-              />
-              <button type="submit">Login</button>
-              {error && <span className="error-message">{error}</span>}
-            </div>
-          </form>
-          <Link to="/signup">Doesn't have an account?</Link>
-          <br />
-          <Link to="/">Home</Link>
-          <br />
-          <Link to="/calendar">Fake login to test</Link>
-        </div>
-      </div>
-    </div> */
-}
+
