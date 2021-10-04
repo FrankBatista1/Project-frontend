@@ -1,5 +1,5 @@
 module.exports = {
-  purge: false,
+  purge: ['build/static/css/main.adff2afb.chunk.css'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
