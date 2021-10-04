@@ -4,7 +4,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-const HomePage = () => {
+const Home = () => {
   return (
     <div >
       <div>
@@ -138,4 +138,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
