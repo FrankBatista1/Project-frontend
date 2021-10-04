@@ -1,6 +1,6 @@
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import './App.css';
-import HomePage from './views/HomePage';
+import HomePage from '../src/views/HomePage';
 import LoginPage from './views/LoginPage'
 import SignUpPage from './views/SignUpPage'
 import WorkoutViews from './views/SingleDayView';
