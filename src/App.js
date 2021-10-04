@@ -1,8 +1,8 @@
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import './App.css';
-import Home from './views/Home';
-import LoginPage from './views/LoginPage'
-import SignUpPage from './views/SignUpPage'
+// import Home from './views/Home';
+// import LoginPage from './views/LoginPage'
+// import SignUpPage from './views/SignUpPage'
 import WorkoutViews from './views/SingleDayView';
 import MyPlanner from './views/MyPlanner'
 import UserView from './views/UserView';
