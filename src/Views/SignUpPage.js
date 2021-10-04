@@ -9,7 +9,7 @@ const SignUpPage = () => {
     password: '',
     confirmPassword: '',
   })
-  const [error, setError] = useState("");
+  // const [error, setError] = useState("");
 
 
   const handleChange = (event) => {
@@ -32,7 +32,7 @@ const SignUpPage = () => {
           Sign up to your account
         </h2>
         <p className="mt-2 text-center text-sm text-gray-600">
-        {error ? <span style={{color: 'rgb(209, 2, 20)'}}>{error}</span> : <span>Please enter your credentials</span>}
+        {/* {error ? <span style={{color: 'rgb(209, 2, 20)'}}>{error}</span> : <span>Please enter your credentials</span>} */}
         </p>
       </div>
       <form onSubmit={""} className="mt-8 space-y-6">
